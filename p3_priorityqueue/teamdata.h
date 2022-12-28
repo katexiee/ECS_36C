@@ -1,0 +1,24 @@
+#ifndef _TEAMDATA_H_
+#define _TEAMDATA_H_
+
+#include <string>
+using namespace std;
+
+class TeamData {
+ public:
+ 	TeamData(string filename);
+ 	int numPlayers() const;
+ 	// double winPercentages(int i, int j) const {
+  //   return winPercentages_[i][j]; 
+  // }
+
+
+ private:
+	// TODO: decide the type of this variable.
+	// winPercentages_;
+
+	int numPlayers_;
+
+};  // class TeamData
+
+#endif  // _TEAMDATA_H_
